@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="align-items: center;">
+    <center><form style="border: 2px solid black; padding: 100px; width: 300px; margin: 20px; background-color: rgb(184, 229, 244);">  
+        <h2 style="text-align: center; margin-top: -50px; color: #020202">Vehicle Registration Form</h2>
+        <label for="fname">First Name</label> 
+        <br>
+
+        <input type="text" id="fname" name="fname" placeholder="Enter your first name" required>
+        <br>
+        <br>
+        <label for="lname">Last Name</label>
+        <br> 
+
+        <input type="text" id="lname" name="lname" placeholder="Enter your last name" required>
+        <br>
+        <br>
+        <label for="myemail">Email ID</label>
+        <br>
+
+       <input type="email" id="myemail" name="myemail" placeholder="Enter your email ID" required/>
+       <br>
+
+        <p><b>Select any 1 option from bellow : </b></p>
+
+        <label for="BMW">BMW</label>
+        <input type="checkbox" id="BMW" name="car1" value="BMW">
+        <br>
+
+        <label for="AUDI">AUDI</label>
+        <input type="checkbox" id="AUDI" name="car2" value="AUDI">
+        <br>
+
+        <label for="MERCEDES">MERCEDES</label>
+        <input type="checkbox" id="MERCEDES" name="car3" value="MERCEDES">
+        <br>
+
+        <label for="LAND ROVER">LAND ROVER</label>
+        <input type="checkbox" id="LAND ROVER" name="car4" value="LAND ROVER">
+        <br>
+
+        <label for="other">OTHER</label>
+        <input type="checkbox" id="other" name="car5" value="other">
+        <br>
+        <br>
+        <label for="Picture" style="display: block; margin-bottom: 5px">
+        Upload Your Car's Picture:</label >
+        <input align="center"
+        type="file"
+        id="Picture"
+        name="Picture"
+        style="width: 100%; margin-bottom: 10px"/>
+      <br>
+      <br>
+        <label for="Performamce" style="display: block; margin-bottom: 5px"
+        >Your Car's Performamce:</label>
+        
+        <input
+        type="range"
+        id="Performamce"
+        name="Performamce"
+        min="0"
+        max="10"
+        style="width: 100%; margin-bottom: 10px"/>
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+    </form></center>
+</body>
+</html>
